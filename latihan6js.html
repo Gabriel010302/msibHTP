@@ -4,16 +4,16 @@
     //tentukan pembelian barang dan diskon 10%
 
     let pelanggan = "Budi";
-    let produk = "tv";
+    let produk = "TV";
 
     //struktur kendali
-    if (produk == 'tv'){
+    if (produk == 'TV'){
         harsat = 3000000;
     }
-    else if (produk == 'motor'){
+    else if (produk == 'Motor'){
         harsat = 12000000;
     }
-    else if (produk == 'kulkas'){
+    else if (produk == 'Kulkas'){
         harsat = 4000000;
     }
     else {
@@ -27,7 +27,7 @@
     //if (produk == 'motor') diskon = 0.1 * bruto;
     //else diskon = 0;
 
-    let diskon = (produk == 'motor') ? 0.1 *bruto : 0;
+    let diskon = (produk == 'Motor') ? 0.1 *bruto : 0;
     let harga_diskon = bruto - diskon;
     document.write( "Data Pembelian " +
     "<br> Pelanggan " + pelanggan +
